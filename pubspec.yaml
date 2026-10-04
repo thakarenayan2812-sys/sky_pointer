@@ -1,0 +1,27 @@
+name: sky_pointer
+description: SkyPointer - Navigate the Night Sky
+publish_to: 'none'
+version: 3.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.5
+  permission_handler: ^11.0.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+  geolocator: ^10.1.0
+  flutter_blue_plus: ^1.31.13
+  http: ^1.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
